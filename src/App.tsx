@@ -1,7 +1,7 @@
-import Hello from './Hello';
+import { PropsAndState } from './example/PropsAndState';
 
 function App() {
-  return <Hello></Hello>;
+  return <PropsAndState></PropsAndState>;
 }
 
 export default App;
