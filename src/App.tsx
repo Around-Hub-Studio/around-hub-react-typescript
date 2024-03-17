@@ -6,6 +6,7 @@ import styled from '@emotion/styled';
 import { Home } from './pages/Home';
 import { About } from './pages/About';
 import { BlogPosts } from './pages/BlogPosts';
+import Photo from './pages/Photo';
 
 const NotFound = styled.div`
   text-align: center;
@@ -20,6 +21,7 @@ function App() {
         <Route path='/example1' element={<Example1 />} />
         <Route path='/example2' element={<Example2 />} />
         <Route path='/blog-posts' element={<BlogPosts />} />
+        <Route path='/photo' element={<Photo />} />
         <Route
           path={'*'}
           element={
